@@ -21,7 +21,7 @@ shinyUI(
       h4('Side b'),
       verbatimTextOutput("inputValue2"),
     
-      
+      h4('a^2 + b^2 = c^2'),
       h4('Which resulted in a hypotenuse of '),
       verbatimTextOutput("hypotenuse")
     )
