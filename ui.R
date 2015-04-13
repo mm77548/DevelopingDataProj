@@ -8,7 +8,8 @@ shinyUI(
     headerPanel("Hypotenuse Calculator with Pythagorean Theorem"),
     
     sidebarPanel(
-      
+      h4('This application will take two inputs for sides of a right triangle without any units.  
+         Then it will calculate and output the length of the hypotenuse.'),
       numericInput('a', 'Side a', 3, min = 1, max = 100000, step = 5),
       numericInput('b', 'Side b', 4, min = 1, max = 100000, step = 5),
       #numericInput('data called in server', 'label', default value, min = 50, max = 200, step = 5 - updown arrow keys),
